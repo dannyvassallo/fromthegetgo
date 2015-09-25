@@ -33,17 +33,29 @@ body{
 .label-logo-row{
 	margin-top: 5%;
 }
-.label-logo{
-	img{
-		max-height: 65px;
+@media (min-width: 768px){
+	.label-logo{
+		img{
+			max-height: 65px;
+		}
 	}
+	.fearless{
+		margin-top: 20%
+	}
+	.epitaph{
+		margin-top: 25%
+	}
+	.artery{
+		margin-top: 20%;
+	}	
 }
-.fearless{
-	margin-top: 20%
-}
-.epitaph{
-	margin-top: 25%
-}
-.artery{
-	margin-top: 20%;
+@media (max-width: 767px){
+	.label-logo{
+		img{
+			max-height: 30px;
+		}
+	}
+	.hopeless, .nosleep, .pn, .rise{
+		margin-top: 25%;
+	}
 }
