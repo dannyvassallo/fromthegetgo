@@ -1,2 +1,107 @@
 // Add custom css here or create more partials
 // and import them in all.css.scss!
+body{
+	background-image: url('https://s3.amazonaws.com/myfangate.com/fromthegetgo/repeatingbg.jpg');
+	background-repeat: repeat;
+	box-shadow: inset 0px 0px 200px #000;
+}
+.full-w{
+	width: 100%;
+}
+.shadowed {
+    -webkit-filter: drop-shadow(12px 12px 25px rgb(0,0,0));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+// center navbar
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;        
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -100px;
+}
+.navbar{
+	box-shadow: 0px 0px 20px #000;
+}
+// label logos
+.label-logo-row{
+	margin-top: 5%;
+}
+@media (min-width: 768px){
+	.label-logo{
+		img{
+			max-height: 65px;
+		}
+	}
+	.fearless{
+		margin-top: 20%
+	}
+	.epitaph{
+		margin-top: 25%
+	}
+	.artery{
+		margin-top: 20%;
+	}	
+}
+@media (max-width: 767px){
+	.label-logo{
+		img{
+			max-height: 30px;
+		}
+	}
+	.hopeless, .nosleep, .pn, .rise{
+		margin-top: 25%;
+	}
+}
+// grid images
+.grid-img{
+	border: 10px solid $red-trans;
+	margin-top: 30px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+// spotify
+#spotify{
+	height: 450px;
+	overflow: scroll;	
+	margin-top: 0px;
+	iframe{
+		border-left: 10px solid $red-trans;
+		border-right: 10px solid $red-trans;		
+	}
+}
+#spotify, #top, #bottom{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.top{
+	margin-top: 5%;	
+	border-top: 10px solid $red-trans;
+}
+.bottom{
+	border-bottom: 10px solid $red-trans;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+// footer
+#footer{	
+	margin-top: 100px;
+	padding-bottom: 20px;	
+	box-shadow: 0px 0px 20px #000;
+	background-color:  $red-trans;
+}
+// social
+
+#social{
+	margin-top: 5%;
+}
