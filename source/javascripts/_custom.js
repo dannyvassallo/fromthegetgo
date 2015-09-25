@@ -21,3 +21,8 @@ function checkBrowser(){
 $(function(){
 	checkBrowser();
 });
+
+
+// spotify
+
+$('#spotify').fitVids({ customSelector: "iframe[src^='embed.spotify.com']"}); 

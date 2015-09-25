@@ -69,3 +69,23 @@ body{
 	margin-top: 30px;
 	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
+// spotify
+#spotify{
+	height: 450px;
+	overflow: scroll;	
+	margin-top: 0px;
+	iframe{
+		border-left: 10px solid $red-trans;
+		border-right: 10px solid $red-trans;		
+	}
+}
+.top{
+	margin-top: 5%;	
+	border-top: 10px solid $red-trans;
+}
+.bottom{
+	border-bottom: 10px solid $red-trans;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
