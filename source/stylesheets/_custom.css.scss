@@ -4,3 +4,28 @@ body{
 	background-image: url('https://s3.amazonaws.com/myfangate.com/fromthegetgo/repeatingbg.jpg');
 	background-repeat: repeat;
 }
+.full-w{
+	width: 100%;
+}
+.shadowed {
+    -webkit-filter: drop-shadow(12px 12px 25px rgb(0,0,0));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+// center navbar
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;        
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -100px;
+}
